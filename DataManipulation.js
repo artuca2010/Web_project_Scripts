@@ -84,4 +84,16 @@ while (contador >= 0) {
     contador--;
 }
 // 3 MÉTODOS FUNDAMENTAIS DE ARRAY (ITERAÇÃO) -------
-// 11 ----------------------------------------------
+// 11 -----------------------------------------------
+let numberArray1 = [1, 2, 3, 4];
+
+let novoArray = numberArray1.map(numero => numero + 1);
+
+console.log(novoArray);
+// 12 -----------------------------------------------
+let numberArray = [1, 2, 3, 4];
+
+let elemento = numberArray[1];
+
+console.log(elemento);
+// 13 -------------------------------------------------
