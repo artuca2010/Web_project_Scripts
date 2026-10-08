@@ -97,3 +97,16 @@ let elemento = numberArray[1];
 
 console.log(elemento);
 // 13 -------------------------------------------------
+const nomes = ["Ana", "Carlos", "João"];
+
+nomes.forEach(nome => {
+  console.log(`Olá, ${nome}!`);
+});
+// 14 ---------------------------------------------------
+const numeros =;
+
+const resultado = numeros
+  .filter(n => n % 2 === 0) // Pega os pares: [2, 4, 6, 8, 10]
+  .map(n => n * 5);        // Multiplica por 5: [10, 20, 30, 40, 50]
+
+console.log(resultado);
