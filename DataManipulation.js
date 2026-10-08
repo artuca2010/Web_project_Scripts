@@ -40,4 +40,48 @@ let RandomNumber = 55
 if (RandomNumber % 2 == 0){
     console.log("O número é par")
 }
-// 5 --------------------------------------
+// 5 -----------------------------------
+let NotadoJorjinho = 8;
+
+if (NotadoJorjinho <= 5) {
+    console.log("REPROVADO! >:");
+} else if (NotadoJorjinho >= 6) {
+    console.log("APROVADO!! :D");
+}
+
+//2 LAÇOS DE REPETIÇÃO ---///------
+//6 -----------------------------------
+let Required_Number = 4;
+
+for (let i = 0; i < Required_Number; i++) { 
+    console.log(i); 
+}
+//7 ------------------------------------
+const Frutas = ["uva", "pera", "maçã"]  
+
+for (let fruta of Frutas){
+    console.log(fruta)
+}
+// 8 ------------------------------------
+
+let j = 0
+
+while (j < 3){
+    console.log(j)
+    j ++
+}
+// 9 -------------------------------------------
+for (let numero = 0; numero <= 20; numero++) {
+    if (numero % 3 === 0) {
+        console.log(numero);
+    }
+}
+// 10 ---------------------------------------------
+let contador = 10;
+
+while (contador >= 0) {
+    console.log(contador);
+    contador--;
+}
+// 3 MÉTODOS FUNDAMENTAIS DE ARRAY (ITERAÇÃO) -------
+// 11 ----------------------------------------------
